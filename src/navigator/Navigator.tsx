@@ -12,7 +12,7 @@ export type RootStackParamList = {
 const RootStack = createNativeStackNavigator<RootStackParamList>();
 
 const Navigator = () => {
-    const mostrar = true;
+    const mostrar = false;
 
     return (
         <RootStack.Navigator>

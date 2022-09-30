@@ -38,6 +38,22 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = customBankConcept/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-customBankConcept-customBankConceptTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-customBankConcept-customBankConceptTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-customBankConcept.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customBankConcept.debug.xcconfig"; path = "Target Support Files/Pods-customBankConcept/Pods-customBankConcept.debug.xcconfig"; sourceTree = "<group>"; };
+		3C83985228E765DD00C61FBE /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Entypo.ttf; path = "../../../../Downloads/fonts /Entypo.ttf"; sourceTree = "<group>"; };
+		3C83985328E765DD00C61FBE /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zocial.ttf; path = "../../../../Downloads/fonts /Zocial.ttf"; sourceTree = "<group>"; };
+		3C83985428E765DD00C61FBE /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EvilIcons.ttf; path = "../../../../Downloads/fonts /EvilIcons.ttf"; sourceTree = "<group>"; };
+		3C83985528E765DD00C61FBE /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../../../../Downloads/fonts /MaterialIcons.ttf"; sourceTree = "<group>"; };
+		3C83985628E765DD00C61FBE /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../../../../Downloads/fonts /MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		3C83985728E765DD00C61FBE /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../../../../Downloads/fonts /Ionicons.ttf"; sourceTree = "<group>"; };
+		3C83985828E765DD00C61FBE /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = "../../../../Downloads/fonts /FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		3C83985928E765DD00C61FBE /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Octicons.ttf; path = "../../../../Downloads/fonts /Octicons.ttf"; sourceTree = "<group>"; };
+		3C83985A28E765DD00C61FBE /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../../../../Downloads/fonts /Feather.ttf"; sourceTree = "<group>"; };
+		3C83985B28E765DD00C61FBE /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = "../../../../Downloads/fonts /FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		3C83985C28E765DD00C61FBE /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = "../../../../Downloads/fonts /AntDesign.ttf"; sourceTree = "<group>"; };
+		3C83985D28E765DD00C61FBE /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = "../../../../Downloads/fonts /FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		3C83985E28E765DD00C61FBE /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Foundation.ttf; path = "../../../../Downloads/fonts /Foundation.ttf"; sourceTree = "<group>"; };
+		3C83985F28E765DD00C61FBE /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../../../../Downloads/fonts /FontAwesome.ttf"; sourceTree = "<group>"; };
+		3C83986028E765DD00C61FBE /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = "../../../../Downloads/fonts /Fontisto.ttf"; sourceTree = "<group>"; };
+		3C83986128E765DD00C61FBE /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimpleLineIcons.ttf; path = "../../../../Downloads/fonts /SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-customBankConcept.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customBankConcept.release.xcconfig"; path = "Target Support Files/Pods-customBankConcept/Pods-customBankConcept.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-customBankConcept-customBankConceptTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customBankConcept-customBankConceptTests.debug.xcconfig"; path = "Target Support Files/Pods-customBankConcept-customBankConceptTests/Pods-customBankConcept-customBankConceptTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-customBankConcept.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-customBankConcept.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +102,7 @@
 		13B07FAE1A68108700A75B9A /* customBankConcept */ = {
 			isa = PBXGroup;
 			children = (
+				3C83985128E7643F00C61FBE /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -104,6 +121,29 @@
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-customBankConcept-customBankConceptTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C83985128E7643F00C61FBE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3C83985C28E765DD00C61FBE /* AntDesign.ttf */,
+				3C83985228E765DD00C61FBE /* Entypo.ttf */,
+				3C83985428E765DD00C61FBE /* EvilIcons.ttf */,
+				3C83985A28E765DD00C61FBE /* Feather.ttf */,
+				3C83985F28E765DD00C61FBE /* FontAwesome.ttf */,
+				3C83985B28E765DD00C61FBE /* FontAwesome5_Brands.ttf */,
+				3C83985D28E765DD00C61FBE /* FontAwesome5_Regular.ttf */,
+				3C83985828E765DD00C61FBE /* FontAwesome5_Solid.ttf */,
+				3C83986028E765DD00C61FBE /* Fontisto.ttf */,
+				3C83985E28E765DD00C61FBE /* Foundation.ttf */,
+				3C83985728E765DD00C61FBE /* Ionicons.ttf */,
+				3C83985628E765DD00C61FBE /* MaterialCommunityIcons.ttf */,
+				3C83985528E765DD00C61FBE /* MaterialIcons.ttf */,
+				3C83985928E765DD00C61FBE /* Octicons.ttf */,
+				3C83986128E765DD00C61FBE /* SimpleLineIcons.ttf */,
+				3C83985328E765DD00C61FBE /* Zocial.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -200,7 +240,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -432,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-customBankConcept-customBankConceptTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -459,6 +500,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-customBankConcept-customBankConceptTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = customBankConceptTests/Info.plist;
