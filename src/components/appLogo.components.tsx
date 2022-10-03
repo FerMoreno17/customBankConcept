@@ -1,15 +1,8 @@
 import React from 'react';
-import { View, StyleSheet, Dimensions, Image } from 'react-native';
+import { View, StyleSheet, Image } from 'react-native';
 
 const AppLogo = () => {
-    const { width } = Dimensions.get('screen');
-
     const styles = StyleSheet.create({
-        container: {
-            width: width * 0.7,
-            alignItems: 'center',
-            justifyContent: 'center',
-        },
         logo: {
             width: 30,
             height: 30,
@@ -17,7 +10,7 @@ const AppLogo = () => {
     });
 
     return (
-        <View style={styles.container}>
+        <View>
             <Image source={require('../assets/logo.png')} style={styles.logo} />
         </View>
     );

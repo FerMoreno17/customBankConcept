@@ -1,22 +1,35 @@
 //import liraries
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, SafeAreaView } from 'react-native';
+import AppStyle from '../styles/styles';
+import CuentasComponent from './Cuentas/cuentas.component';
 
 // create a component
 const HomeScreen = () => {
     const styles = StyleSheet.create({
-        container: {
+        cabecera: {
             flex: 1,
-            justifyContent: 'center',
-            alignItems: 'center',
-            backgroundColor: '#fff',
+            backgroundColor: 'grey',
+        },
+        botones: {
+            flex: 3,
+            borderTopRightRadius: 20,
+            borderTopLeftRadius: 20,
+            backgroundColor: 'green',
         },
     });
 
     return (
-        <View style={styles.container}>
-            <Text>HomeScreen</Text>
-        </View>
+        <SafeAreaView style={AppStyle.container}>
+            <View style={[AppStyle.body]}>
+                <View style={styles.cabecera}>
+                    <CuentasComponent />
+                </View>
+                <View style={styles.botones}>
+                    <Text>Botones</Text>
+                </View>
+            </View>
+        </SafeAreaView>
     );
 };
 
