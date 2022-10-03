@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { mainColor } from '../../App';
-import theme from '../../styles/theme.style';
+import { theme } from '../../styles/theme.style';
 //Los datos de componentes como estos, no deben depender de otros componentes padres
 //deben obtener su información desde el Redux
 

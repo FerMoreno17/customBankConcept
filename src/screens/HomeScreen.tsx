@@ -1,21 +1,27 @@
 //import liraries
 import React from 'react';
-import { View, Text, StyleSheet, SafeAreaView } from 'react-native';
+import { View, StyleSheet, SafeAreaView, Dimensions } from 'react-native';
+import AppButtonList from '../components/appButtonList.component';
 import AppStyle from '../styles/styles';
+import { theme } from '../styles/theme.style';
 import CuentasComponent from './Cuentas/cuentas.component';
 
 // create a component
 const HomeScreen = () => {
+    const { height } = Dimensions.get('screen');
     const styles = StyleSheet.create({
         cabecera: {
+            ...StyleSheet.absoluteFillObject,
             flex: 1,
-            backgroundColor: 'grey',
         },
-        botones: {
-            flex: 3,
-            borderTopRightRadius: 20,
-            borderTopLeftRadius: 20,
-            backgroundColor: 'green',
+        botonesContainer: {
+            top: 150,
+            maxHeight: height * 0.68,
+            flex: 2,
+            borderTopRightRadius: 40,
+            borderTopLeftRadius: 40,
+            padding: 20,
+            backgroundColor: theme.WHITE,
         },
     });
 
@@ -25,8 +31,8 @@ const HomeScreen = () => {
                 <View style={styles.cabecera}>
                     <CuentasComponent />
                 </View>
-                <View style={styles.botones}>
-                    <Text>Botones</Text>
+                <View style={styles.botonesContainer}>
+                    <AppButtonList />
                 </View>
             </View>
         </SafeAreaView>
