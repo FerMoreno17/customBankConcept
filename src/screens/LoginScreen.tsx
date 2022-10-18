@@ -1,6 +1,6 @@
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import React, { useEffect, useState } from 'react';
-import { SafeAreaView, View } from 'react-native';
+import { View } from 'react-native';
 import AppButton from '../components/appButton.component';
 import AppInput from '../components/appInput.component';
 import AppModal from '../components/appModal.component';
@@ -34,7 +34,7 @@ function LoginScreen({ navigation }: ScreenProps) {
     }
 
     return (
-        <SafeAreaView style={AppStyle.container}>
+        <View style={AppStyle.container}>
             <View style={[AppStyle.body, AppStyle.centerItems]}>
                 <AppInput label="Usuario" placeholder="Usuario" onChange={setUser} />
                 <AppInput label="Contraseña" placeholder="Contraseña" onChange={setPassword} />
@@ -47,7 +47,7 @@ function LoginScreen({ navigation }: ScreenProps) {
                 modalVisible={setModalVisible}
                 visible={modalVisible}
             />
-        </SafeAreaView>
+        </View>
     );
 };
 

@@ -1,47 +1,61 @@
 import React from 'react';
-import { Text, StyleSheet, Pressable } from 'react-native';
+import { Text, StyleSheet, Pressable, View } from 'react-native';
 import Ionicon from 'react-native-vector-icons/Ionicons';
 import { theme } from '../styles/theme.style';
 
 interface IProps {
+    buttonSize?: number;
+    backgroudColor?: string;
     iconName?: string;
-    size?: number;
-    color?: string;
+    iconSize?: number;
+    borderColor?: string;
     label?: string;
+    labelColor?: string;
+    labelSize?: number;
     onPress: () => void;
 }
 
 const AppButtonIcon = ({
+    buttonSize = 50,
+    backgroudColor = theme.WHITE,
     iconName = 'person-outline',
-    color = theme.DARK_GREY,
-    size = 30,
+    borderColor = theme.DARK_GREY,
+    iconSize = 30,
     label = 'label',
+    labelColor = theme.DARK_GREY,
+    labelSize = 12,
     onPress,
 }: IProps) => {
 
     const styles = StyleSheet.create({
         container: {
-            width: 80,
-            height: 80,
-            margin: 5,
-            padding: 5,
-            borderColor: theme.DARK_GREY,
+            width: buttonSize,
+            height: buttonSize,
+            marginHorizontal: 15,
+            padding: 3,
+            borderColor: borderColor,
             borderWidth: 1.2,
             borderRadius: 15,
             alignItems: 'center',
             justifyContent: 'center',
+            backgroundColor: backgroudColor,
         },
-        textAlign: {
-            color: theme.DARK_GREY,
+        label: {
+            color: labelColor,
             textAlign: 'center',
-        }
+            fontSize: labelSize,
+            marginTop: 10,
+        },
+
     });
 
     return (
-        <Pressable style={styles.container} onPress={onPress}>
-            <Ionicon name={iconName} size={size} color={color} />
-            <Text style={styles.textAlign} adjustsFontSizeToFit>{label}</Text>
-        </Pressable>
+        <View>
+            <Pressable style={styles.container} onPress={onPress}>
+                <Ionicon name={iconName} size={iconSize} color={borderColor} />
+            </Pressable>
+            <Text style={styles.label} >{label}</Text>
+        </View>
     );
 };
 

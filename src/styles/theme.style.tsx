@@ -8,7 +8,7 @@ export const theme = {
     DISABLED: '#FF7B7B',
 
 
-    FONT_SIZE_SMALL: 16,
-    FONT_SIZE_MEDIUM: 20,
-    FONT_SIZE_LARGE: 24,
+    FONT_SIZE_SMALL: 14,
+    FONT_SIZE_MEDIUM: 18,
+    FONT_SIZE_LARGE: 20,
 };

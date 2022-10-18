@@ -8,6 +8,7 @@
 		<string>FontAwesome.ttf</string>
 		<string>FontAwesome5_Regular.ttf</string>
 		<string>FontAwesome5_Solid.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
 	</array>
 	<key>CFBundleGetInfoString</key>
 	<string></string>

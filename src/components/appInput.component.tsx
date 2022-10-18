@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, TextInput } from 'react-native';
+import { View, Text, StyleSheet, TextInput, Platform } from 'react-native';
 import { mainColor } from '../App';
 
 interface IProps {
@@ -21,11 +21,10 @@ const AppInput = ({
             marginBottom: 5,
         },
         input: {
-            width: '100%',
             borderColor: mainColor,
             borderWidth: 2,
             borderRadius: 10,
-            paddingLeft: 10,
+            padding: Platform.OS === 'ios' ? 15 : 10,
         },
     });
 

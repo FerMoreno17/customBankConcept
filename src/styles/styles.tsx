@@ -4,7 +4,6 @@ import { theme } from './theme.style';
 const AppStyle = StyleSheet.create({
     container: {
         flex: 1,
-        paddingVertical: 10,
         paddingHorizontal: 20,
         backgroundColor: theme.WHITE,
     },
@@ -31,6 +30,20 @@ const AppStyle = StyleSheet.create({
     },
     textSmall: {
         fontSize: theme.FONT_SIZE_SMALL,
+    },
+    h1: {
+        fontSize: theme.FONT_SIZE_LARGE,
+        fontWeight: 'bold',
+    },
+    shadow: {
+        shadowColor: '#000',
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
     },
 });
 

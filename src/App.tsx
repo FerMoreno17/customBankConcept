@@ -13,7 +13,7 @@ function App() {
 
   return (
     <NavigationContainer>
-      <StatusBar barStyle="light-content" backgroundColor={mainColor} />
+      <StatusBar barStyle={'default'} backgroundColor={mainColor} />
       <Navigator />
     </NavigationContainer>
   );

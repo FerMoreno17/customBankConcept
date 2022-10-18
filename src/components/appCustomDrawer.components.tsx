@@ -1,6 +1,8 @@
 import { DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawer';
 import React from 'react';
-import { View, Text, StyleSheet, ImageBackground, Image } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
+import Ionicon from 'react-native-vector-icons/Ionicons';
+import { theme } from '../styles/theme.style';
 
 const AppCustomDrawer = (props: any) => {
 
@@ -9,24 +11,23 @@ const AppCustomDrawer = (props: any) => {
             flex: 1,
         },
         contentContainer: {
-            backgroundColor: '#d9d9d9',
-        },
-        bg: {
-            padding: 20,
-        },
-        userIcon: {
-            width: 75,
-            height: 75,
-            marginBottom: 10,
+            backgroundColor: theme.GREY,
+            alignItems: 'center',
         },
         userText: {
             fontSize: 20,
             fontWeight: 'bold',
+            color: theme.DARK_GREY,
+            marginBottom: 10,
         },
         optionsContainer: {
-            flex: 1,
-            backgroundColor: '#fff',
+            width: '100%',
+            backgroundColor: theme.WHITE,
             paddingTop: 10,
+        },
+        footer: {
+            bottom: 20,
+            left: 20,
         },
     });
 
@@ -36,16 +37,13 @@ const AppCustomDrawer = (props: any) => {
                 contentContainerStyle={styles.contentContainer}
             >
                 {/*Header del menu*/}
-                <ImageBackground
-                    source={require('../assets/drawer-bg.png')}
-                    style={styles.bg}
-                >
-                    <Image
-                        source={require('../assets/user-icon.png')}
-                        style={styles.userIcon}
-                    />
+                <View>
+                    <Ionicon
+                        name={'person-circle-outline'}
+                        size={100}
+                        color={theme.DARK_GREY} />
                     <Text style={styles.userText}>Generic User</Text>
-                </ImageBackground>
+                </View>
 
                 {/*Listado de pantallas*/}
                 <View style={styles.optionsContainer}>
@@ -53,7 +51,7 @@ const AppCustomDrawer = (props: any) => {
                 </View>
             </DrawerContentScrollView>
 
-            <View>
+            <View style={styles.footer}>
                 <Text>Versión: 0.1.0</Text>
             </View>
         </View>
